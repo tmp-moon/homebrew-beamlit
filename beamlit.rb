@@ -10,7 +10,7 @@ class Beamlit < Formula
   on_macos do
     on_intel do
       url "https://github.com/tmp-moon/toolkit/releases/download/0.0.5-dev/beamlit_Darwin_x86_64.tar.gz"
-      sha256 "076f9a0ccf7a18f20f0485e3b72ecf9527b8c62d5eb38de6e0fba1e910d76b51"
+      sha256 "f40e1c9eb8dcdd2b9ae8a8f556211e4ebd798c0a4033cd583c73ba5d96db0c4e"
 
       def install
         bin.install "beamlit"
@@ -18,7 +18,7 @@ class Beamlit < Formula
     end
     on_arm do
       url "https://github.com/tmp-moon/toolkit/releases/download/0.0.5-dev/beamlit_Darwin_arm64.tar.gz"
-      sha256 "b964c172dd360cdb6e678233f9b787110b7cfe7299376d1253ded6fdead4338a"
+      sha256 "17d769f9517041ef19ce00751770d5e1a68d07c1a8fe43eeb54686da2dadf64c"
 
       def install
         bin.install "beamlit"
@@ -30,7 +30,7 @@ class Beamlit < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/tmp-moon/toolkit/releases/download/0.0.5-dev/beamlit_Linux_x86_64.tar.gz"
-        sha256 "15c63509253ad64ae5b43d7509194921b6f7596f82cad28dc459153b1b106afc"
+        sha256 "c5edef8d188d347e1afc1f0140a938d9756e4cc857b2e0b5a1f613de1200085a"
 
         def install
           bin.install "beamlit"
@@ -40,7 +40,7 @@ class Beamlit < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/tmp-moon/toolkit/releases/download/0.0.5-dev/beamlit_Linux_arm64.tar.gz"
-        sha256 "90749a28ded4bf034511846d5087c23f4a1231078d39ea847a22ef205ca77612"
+        sha256 "3df826dba112cf040f9daaf589ba5064866c63b74c0c3d6746f833434704b441"
 
         def install
           bin.install "beamlit"

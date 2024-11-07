@@ -5,20 +5,20 @@
 class Beamlit < Formula
   desc ""
   homepage "https://www.beamlit.com"
-  version "0.0.12-dev"
+  version "0.0.13-dev"
 
   on_macos do
     on_intel do
-      url "https://github.com/tmp-moon/toolkit/releases/download/0.0.12-dev/beamlit_Darwin_x86_64.tar.gz"
-      sha256 "5c913a409a12b8ff38c5922d21d46412de928fbc2444299d24d3a9ec7ab57200"
+      url "https://github.com/tmp-moon/toolkit/releases/download/0.0.13-dev/beamlit_Darwin_x86_64.tar.gz"
+      sha256 "d616c83e494c8542a78761da58ffa14d7fc007035f91baa137d2d53f002641f7"
 
       def install
         bin.install "beamlit"
       end
     end
     on_arm do
-      url "https://github.com/tmp-moon/toolkit/releases/download/0.0.12-dev/beamlit_Darwin_arm64.tar.gz"
-      sha256 "a55c0abfc56990639a1226673f71cb43cc06c99353afb235de57f45d72f40703"
+      url "https://github.com/tmp-moon/toolkit/releases/download/0.0.13-dev/beamlit_Darwin_arm64.tar.gz"
+      sha256 "2f20e0ed09c6899d83b67f32c4bc5f96606ed89f83935f84448bd77b2b7f5bc5"
 
       def install
         bin.install "beamlit"
@@ -29,8 +29,8 @@ class Beamlit < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/tmp-moon/toolkit/releases/download/0.0.12-dev/beamlit_Linux_x86_64.tar.gz"
-        sha256 "d8b054cb7f678247379e8f1556d124a37142b25375542e033d24e86947e0b7a4"
+        url "https://github.com/tmp-moon/toolkit/releases/download/0.0.13-dev/beamlit_Linux_x86_64.tar.gz"
+        sha256 "84bd5d8b0851dc90e68220d88788d81b6cfc3055e957f94bac172805095c72f2"
 
         def install
           bin.install "beamlit"
@@ -39,8 +39,8 @@ class Beamlit < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/tmp-moon/toolkit/releases/download/0.0.12-dev/beamlit_Linux_arm64.tar.gz"
-        sha256 "109878ad6327c10ffa6690ea1a90be74be2d7f554c555e82458bfc376aa4eed7"
+        url "https://github.com/tmp-moon/toolkit/releases/download/0.0.13-dev/beamlit_Linux_arm64.tar.gz"
+        sha256 "e9cf98361ff95d5be974b7b130535530df59566dbe183bf5a23090e31836c229"
 
         def install
           bin.install "beamlit"
